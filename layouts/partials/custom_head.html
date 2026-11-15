@@ -17,4 +17,42 @@
       --blockquote-color: #222;
     }
   }
+  /* On wide screens, move the section links from under the title into a
+     sidebar on the right. Narrow screens keep the theme's top nav. */
+  @media (min-width: 800px) {
+    body {
+      max-width: 920px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 150px;
+      column-gap: 48px;
+    }
+
+    header {
+      display: contents;
+    }
+
+    header > .title,
+    main,
+    footer {
+      grid-column: 1;
+    }
+
+    header > nav {
+      grid-column: 2;
+      grid-row: 1 / span 3;
+      align-self: start;
+      position: sticky;
+      top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+      padding-left: 20px;
+      border-left: 1px solid #d8cfb8;
+    }
+
+    header > nav a {
+      margin-right: 0;
+    }
+  }
 </style>
