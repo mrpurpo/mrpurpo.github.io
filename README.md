@@ -1,1 +1,1 @@
-# mrpurposeful.github.io
+# mrpurpo.github.io
