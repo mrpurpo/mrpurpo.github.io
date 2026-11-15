@@ -1,0 +1,20 @@
+<style>
+  :root {
+    --font-main: Georgia, "Times New Roman", serif;
+    --font-secondary: Georgia, "Times New Roman", serif;
+    --background-color: #fdf6e3;
+  }
+
+  /* The theme switches to light text in dark mode, which would be unreadable
+     on cream, so keep the light palette there too. */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #fdf6e3;
+      --heading-color: #222;
+      --text-color: #444;
+      --link-color: #3273dc;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #222;
+    }
+  }
+</style>

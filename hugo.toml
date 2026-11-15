@@ -1,0 +1,29 @@
+baseURL = "https://mrpurpo.github.io/"
+locale = "en-us"
+title = "Your Name"
+theme = "hugo-bearblog"
+enableRobotsTXT = true
+
+[params]
+  author = "Your Name"
+  description = "Notes on technical AI safety, projects, and progress."
+
+[[menus.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 10
+
+[[menus.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 20
+
+[[menus.main]]
+  name = "Progress"
+  url = "/progress/"
+  weight = 30
+
+[[menus.main]]
+  name = "CV"
+  url = "/cv.pdf"
+  weight = 40
