@@ -1,11 +1,11 @@
 baseURL = "https://mrpurpo.github.io/"
 locale = "en-us"
-title = "Your Name"
+title = "Sebastián Morón"
 theme = "hugo-bearblog"
 enableRobotsTXT = true
 
 [params]
-  author = "Your Name"
+  author = "Sebastián Morón"
   description = "Notes on technical AI safety, projects, and progress."
 
 [[menus.main]]
@@ -19,11 +19,15 @@ enableRobotsTXT = true
   weight = 20
 
 [[menus.main]]
-  name = "Progress"
-  url = "/progress/"
-  weight = 30
-
-[[menus.main]]
   name = "CV"
   url = "/cv.pdf"
   weight = 40
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]

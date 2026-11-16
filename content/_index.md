@@ -2,13 +2,13 @@
 title: "Home"
 ---
 
-# Hi, I'm Your Name
+# Hi, I'm Sebastián Morón!
 
-I'm working toward a career in technical AI safety. This site is where I keep
-notes on what I'm learning, the projects I'm building, and a running log of my
-progress.
+I am a mathematical engineering student at Pontificia Universidad Católica de Chile (PUC). I like pure math and understanding how things work from their basic parts. 
 
-*(Placeholder intro: replace this with a few sentences about yourself.)*
+Currently, my focus is on researching mechanistic interpretability because I believe it is a problem that, if solved, is going to improve almost every other area of AI Safety.
 
-- Email: [you@example.com](mailto:you@example.com)
+To accomplish that goal, my next challenge is to apply to Bluedot Technical AI Safety Course and work through ARENA's curriculum.
+
+- Email: [sebastian.mpaes@gmail.com](sebastian.mpaes@gmail.com)
 - GitHub: [github.com/mrpurpo](https://github.com/mrpurpo)
